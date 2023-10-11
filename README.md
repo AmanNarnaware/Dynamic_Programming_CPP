@@ -1,2 +1,4 @@
 # Dynamic_Programming_CPP
-Just practicing DP using CPP.
+Practcing DP problems.
+# 0/1 Knapsack
+
