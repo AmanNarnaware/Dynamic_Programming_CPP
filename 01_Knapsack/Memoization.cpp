@@ -24,7 +24,7 @@ int main(){
     int capacity = 50;
     int size = sizeof(profit)/sizeof(profit[0]);
   
-    int** dp = new int*[size+1];      // dynamic mem allocation 2d array for storing value (can use 2d vector)
+    int** dp = new int*[size+1];      
     for(int i = 0; i < size+1;i++){
       dp[i] = new int[capacity+1];
       memset(dp[i],-1, sizeof(int) * (capacity+1));
